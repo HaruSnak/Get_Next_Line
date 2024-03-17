@@ -27,12 +27,6 @@ By completing the get_next_line project, students develop the following skills:
 ### **Compilation**
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/HaruSnak/libft.git
-
-# Go into the repository
-$ cd libft
-
 # To compile the program
 $ make
 
