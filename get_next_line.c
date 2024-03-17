@@ -6,28 +6,28 @@
 /*   By: shmoreno <shmoreno@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/02 13:41:19 by shmoreno          #+#    #+#             */
-/*   Updated: 2024/01/02 09:27:40 by shmoreno         ###   ########.fr       */
+/*   Updated: 2024/03/17 18:03:57 by shmoreno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
-fill_buffer: Lis le fichier en utilisant read pour ensuite stocker le contenu
-dans un buffer. Si read renvoie une erreur ou 0, on free le buffer et on
-retourne NULL. Sinon, on retourne le buffer.
+fill_buffer: Read the file using read to then store the content in a buffer.
+If read returns an error or 0,
+free the buffer and return NULL. Otherwise, return the buffer.
 
-find_espace_sequence: Cherche la première occurence de \n dans le buffer. Si
-on trouve, on retourne la ligne jusqu'à \n et on stocke le reste dans un
-nouveau buffer. Sinon, on retourne NULL.
+find_espace_sequence: Search for the first occurrence of \n in the buffer.
+If found, return the line up to \n and store the rest in a new buffer.
+Otherwise, return NULL.
 
-process_stash: On cherche la première occurence de \n dans le buffer. Si on
-trouve, on retourne la ligne jusqu'à \n et on stocke le reste dans un
-nouveau buffer. Sinon, on lit le fichier avec fill_buffer et on stocke le
-contenu dans un nouveau buffer. On concatène le nouveau buffer avec l'ancien
-et on recommence jusqu'à trouver \n. On retourne la ligne jusqu'à \n et on
-stocke le reste dans un nouveau buffer. Si read renvoie une erreur ou 0, on
-free le buffer et on retourne NULL. Sinon, on retourne le buffer.
-get_next_line: On vérifie que les paramètres sont valides. Si oui, on
-appelle process_stash. Sinon, on free le buffer et on retourne NULL.
+process_stash: Search for the first occurrence of \n in the buffer. If found,
+return the line up to \n and store the rest in a new buffer. Otherwise,
+read the file using fill_buffer and store the content in a new buffer.
+Concatenate the new buffer with the old one and repeat until finding \n.
+Return the line up to \n and store the rest in a new buffer.
+If read returns an error or 0,
+free the buffer and return NULL. Otherwise, return the buffer.
+get_next_line: Check if the parameters are valid. If yes,
+call process_stash. Otherwise, free the buffer and return NULL.
 */
 #include "get_next_line.h"
 
