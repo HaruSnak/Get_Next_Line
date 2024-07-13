@@ -79,13 +79,13 @@ Below you will find the links used for this project:
 - [Nikito's explanation in video](https://www.youtube.com/watch?v=-Mt2FdJjVno)
 - [Ji Woo Lee | GNL](https://velog.io/@ljiwoo59/getnextline)
 
-[contributors-shield]: https://img.shields.io/github/contributors/HaruSnak/So_long.svg?style=for-the-badge
-[contributors-url]: https://github.com/HaruSnak/So_Long/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/HaruSnak/So_Long.svg?style=for-the-badge
-[forks-url]: https://github.com/HaruSnak/So_Long/network/members
-[stars-shield]: https://img.shields.io/github/stars/HaruSnak/So_Long.svg?style=for-the-badge
-[stars-url]: https://github.com/HaruSnak/So_Long/stargazers
-[issues-shield]: https://img.shields.io/github/issues/HaruSnak/So_Long.svg?style=for-the-badge
-[issues-url]: https://github.com/HaruSnak/So_Long/issues
+[contributors-shield]: https://img.shields.io/github/contributors/HaruSnak/Get_Next_Line.svg?style=for-the-badge
+[contributors-url]: https://github.com/HaruSnak/Get_Next_Line/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/HaruSnak/Get_Next_Line.svg?style=for-the-badge
+[forks-url]: https://github.com/HaruSnak/Get_Next_Line/network/members
+[stars-shield]: https://img.shields.io/github/stars/HaruSnak/Get_Next_Line.svg?style=for-the-badge
+[stars-url]: https://github.com/HaruSnak/Get_Next_Line/stargazers
+[issues-shield]: https://img.shields.io/github/issues/HaruSnak/Get_Next_Line.svg?style=for-the-badge
+[issues-url]: https://github.com/HaruSnak/Get_Next_Line/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/shany-moreno-5a863b2aa
